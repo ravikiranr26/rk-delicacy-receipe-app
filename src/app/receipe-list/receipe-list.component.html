@@ -1,0 +1,30 @@
+<div class="bg-img">
+  <div class="bg-txt">
+    <h1>{{ title }}</h1>
+    <h5>{{ subTitle }}</h5>
+    <mat-form-field class="search-receipe">
+        <input matInput [(ngModel)]="userFilter.name" type="search" placeholder="Enter your Recipe you looking for..">
+    </mat-form-field>
+  </div>
+</div>
+<div class="recipe-list">
+    <mat-card *ngFor="let receipe of receipes | filterBy: userFilter" class="recipe-card" ngClass.xs="fxClass-xs"  ngClass.sm="fxClass-sm">
+        <mat-card-header>
+          <div mat-card-avatar class="recipe-header-image"></div>
+          <mat-card-title>RK Delicacy</mat-card-title>
+          <mat-card-subtitle>{{receipe.country}}</mat-card-subtitle>
+        </mat-card-header>
+        <img (click)="navigateToDetails(receipe)" mat-card-image [src]="receipe.image" [alt]="receipe.name">
+        <mat-card-content>
+          <p>
+            {{receipe.name}}
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>LIKE</button>
+          <button mat-button>SHARE</button>
+        </mat-card-actions>
+      </mat-card>
+      <!-- <div *ngIf="(receipes | filterBy: userFilter).length === 0">No matching elements</div> -->
+</div>
+<router-outlet></router-outlet> 
