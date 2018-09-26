@@ -1,0 +1,50 @@
+.receipedetails .mat-figure {
+    align-items: baseline !important;
+}
+
+.header {
+    background-color:#f3f2f2a1;
+    width: 100%;
+    height: 50px;
+}
+
+.receipedetails {
+    margin:0 1em;
+}
+
+.img {
+    float: left;
+}
+
+.details {
+    text-align: left !important;
+}
+
+.classification {
+    font-size: 0.9rem;
+    color: #a23030;
+    text-align: left;
+}
+
+.header h2 {
+    margin: 0;
+    color: #a23030;
+}
+
+.header a {
+    float: left;
+}
+
+.veg {
+    color: green;
+}
+.nonveg {
+    color: red;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .img {
+        float: none;
+        display: block;
+    }    
+}

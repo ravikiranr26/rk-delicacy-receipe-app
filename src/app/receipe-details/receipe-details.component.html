@@ -1,0 +1,29 @@
+<div class="header">
+      <a mat-button routerLink="/" routerLinkActive="active"><< Back</a>
+      <h2>Receipe Details</h2>
+</div>
+<div class="receipedetails">
+  <h3>{{recDetaildata.name}}</h3>
+  <div class="classification">
+    Date:<span>{{recDetaildata.date | date}}</span> |
+    Vegan:<span [ngClass]="(recDetaildata.veg) ? 'veg' : 'nonveg'">{{recDetaildata.veg}}</span> |
+    Suitable for <span>{{recDetaildata.dishes}}</span> people
+  </div>
+    <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column">
+        <div fxFlex class="img">
+            <img [src]="recDetaildata.image" alt="" />
+        </div>
+        <div fxFlex class="details">
+            <mat-tab-group>
+                <mat-tab label="Ingredients">
+                    <ul>
+                        <li *ngFor="let ingred of recDetaildata.ingredients">
+                            {{ingred}}
+                        </li>
+                    </ul>
+                </mat-tab>
+                <mat-tab label="Cooking Instructions">{{recDetaildata.instructions}}</mat-tab>
+              </mat-tab-group>
+        </div>
+    </div>
+</div>

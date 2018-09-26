@@ -1,0 +1,49 @@
+.recipe-card {
+    max-width: 200px;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.recipe-list {
+    margin-left: 1em;
+}
+
+.bg-img {
+    background-image: url('/assets/download.jpg');
+    background-size: cover;
+    height: 300px;
+}
+
+.bg-img h1 {
+    margin: 0;
+    color: #a23030;
+}
+
+.bg-txt {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.search-receipe {
+    width: 30%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.search-receipe input {
+    font-weight: bold;
+}
+
+.fxClass-xs {
+    max-width: 320px !important;
+}
+
+.fxClass-sm {
+    max-width: 300px !important;
+}
+
+.recipe-header-image {
+    background-image: url('https://cdn.pixabay.com/photo/2014/04/02/10/14/chefs-hat-303194__340.png');
+    background-size: cover;
+}
