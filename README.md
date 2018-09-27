@@ -19,4 +19,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 # rk-delicacy-receipe-app-ui
 
 Responsive Web App using the latest and standard tech with E2E solution using Angular 6, Spring Boot, MongoDB etc
->>>>>>> afa4550881667b56428d6293460d4749b1c295f5
