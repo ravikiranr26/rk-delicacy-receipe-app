@@ -16,7 +16,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-# rk-delicacy-receipe-app-ui
+****
 
 Progressive Web Application using the latest and standard technology stack with E2E solution using Angular 6, Typescript, Unit Tests, etc
 
