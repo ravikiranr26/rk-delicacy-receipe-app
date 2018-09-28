@@ -36,6 +36,7 @@ Future Additions:
 * GraphQL 
 * Universal
 * Addition of JWT
+* AWS
 
 Note:
 > Only REST of receipe details has been UNIT tested, furthur will add all the unit test cases, but some are covered in Functional Tests
