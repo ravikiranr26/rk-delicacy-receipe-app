@@ -18,4 +18,24 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 # rk-delicacy-receipe-app-ui
 
-Responsive Web App using the latest and standard tech with E2E solution using Angular 6, Spring Boot, MongoDB etc
+Progressive Web Application using the latest and standard technology stack with E2E solution using Angular 6, Typescript, Unit Tests, etc
+
+Some of the design and architecture consideration applied for this app and furthur additions as follows,
+
+Implemented:
+> MVC
+> Lazy Loading
+> Progressive Web Approach 
+> Search of the Receipe, without making a HTTP call it has been achieved
+> State preservation on Refresh/Rehold have been accompilished
+> Flex Layout for handling Responsive Behaviour
+> Material Design has been added as Standard design consideration also keeping in mind of the ARIA
+> Seperation of concerns wrt to the folder structure to maintain large app
+
+Future Additions:
+> GraphQL 
+> Universal
+> Addition of JWT
+
+Note:
+> Only REST of receipe details has been UNIT tested, furthur will add all the unit test cases, but some are covered in Functional Tests
