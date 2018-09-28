@@ -23,19 +23,19 @@ Progressive Web Application using the latest and standard technology stack with 
 Some of the design and architecture consideration applied for this app and furthur additions as follows,
 
 Implemented:
-# > MVC
-# > Lazy Loading
-# > Progressive Web Approach 
-# > Search of the Receipe, without making a HTTP call it has been achieved
-# > State preservation on Refresh/Rehold have been accompilished
-# > Flex Layout for handling Responsive Behaviour
-# > Material Design has been added as Standard design consideration also keeping in mind of the ARIA
-# > Seperation of concerns wrt to the folder structure to maintain large app
+* MVC
+* Lazy Loading
+* Progressive Web Approach 
+* Search of the Receipe, without making a HTTP call it has been achieved
+* State preservation on Refresh/Rehold have been accompilished
+* Flex Layout for handling Responsive Behaviour
+* Material Design has been added as Standard design consideration also keeping in mind of the ARIA
+* Seperation of concerns wrt to the folder structure to maintain large app
 
 Future Additions:
-# > GraphQL 
-# > Universal
-# > Addition of JWT
+* GraphQL 
+* Universal
+* Addition of JWT
 
 Note:
 > Only REST of receipe details has been UNIT tested, furthur will add all the unit test cases, but some are covered in Functional Tests
