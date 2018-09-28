@@ -6,7 +6,7 @@
   <h3>{{recDetaildata.name}}</h3>
   <div class="classification">
     Date:<span>{{recDetaildata.date | date}}</span> |
-    Vegan:<span [ngClass]="(recDetaildata.veg) ? 'veg' : 'nonveg'">{{recDetaildata.veg}}</span> |
+    Vegan:<span [ngClass]="(recDetaildata.veg) ? 'veg' : 'nonveg'">{{recDetaildata.veg ? 'Yes' : 'No'}}</span> |
     Suitable for <span>{{recDetaildata.dishes}}</span> people
   </div>
     <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column">
